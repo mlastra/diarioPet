@@ -1,0 +1,174 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background: url(../imagenes/bulla.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Roboto;
+
+}
+
+.contenedor-form{
+    position: relative;
+    padding: 20px;
+    margin: auto;
+    background: rgba(0, 0, 0, .6);
+    width: 400px;
+    max-width: 500px;
+    margin: 45px auto;
+    color: #fff;
+    border-radius: 4px;
+}
+.form--titulo
+{
+    background: rgba(9, 83, 219, 0.863);
+    text-align: center;
+    color: white;
+    padding: 0.9375rem;
+    font-weight: 100;
+    font-size: 1.875rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: var(--espacios-contenido);
+}
+
+.contenedor-form h2{
+    margin: 0 0 28px 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 2;
+
+}
+.contenedor-form input[type="email"],
+.contenedor-form input[type="password"]{
+    outline: none;
+    background: white;
+    display: 10px 15px;
+    width: 100%;
+    padding: 10px 20px;
+    color:black;
+    border: none;
+    border-radius: 2px;
+    border-bottom: 4px solid #ff851b ;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0 0 20px 0 ;
+    transition: all .5s ease;
+
+}
+.contenedor-form input[type="email"]:focus,
+.contenedor-form input[type="password"]:focus{
+border-bottom: 4px solid blue;
+
+}
+.contenedor-form input[type="submit"],
+.contenedor-form input[type="reset"]{
+    background: #ff851b;
+    color: #fff;
+    border: none;
+    width: 90%;
+    padding: 10px 0;
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all .5s ease;
+    
+}
+.contenedor-form input[type="submit"]:hover,
+.contenedor-form input[type="reset"]:hover
+{
+    background: rgba(0, 117, 118, 0.7);
+    
+}
+
+p{
+    display: block;
+    margin-left: 20px;
+margin-top: 30px;}
+
+
+.contenedor-form .password-va{
+    background:  rgba(0, 117, 118, 0.7);
+    
+    width: 100%;
+    text-align: center;
+    height: 35px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.contenedor-form .password-va a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    
+    
+}
+.contenedor-form .reset-password {
+    background: rgba(2, 72, 134, 0.7);
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.contenedor-form .reset-password a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.contenedor-form .formulario{
+    padding: 5px;
+    
+}
+.contenedor-form .formulario :nth-child(){
+    display: block
+}
+.link {
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	padding: 0.625rem; 
+	background-color:  rgba(255, 154, 1, 0.486) ;
+	font-size: 1em; 
+    letter-spacing: 1px;
+    text-decoration: none;
+	
+}
+
+.link:hover {
+	background:   rgba(7,109,150, .45);
+	text-decoration: none;
+}
+
+@media(min-width:768px)
+{
+    .enlace a {font-size: 14px;}
+}
+@media (max-width: 576px)
+{
+    
+    body{
+        font-size:12px ;
+
+    }
+    .header{
+        text-align: center;
+        width: 100%;
+        
+      
+    }
+    .contenedor
+{
+    width: 100%;
+    padding: 15px;
+}
+}

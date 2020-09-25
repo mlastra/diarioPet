@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b4d88cb546.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../proyect/CSS/login.css">
+    <title>Login</title>
+    <script src="../proyect/javascripts/seion.js"></script>
+
+</head>
+<body>
+    <form action="index.html">
+        <div class="contenedor-form">
+            <h2 class="form--titulo">Inicio de Sesión</h2>
+                <div class="formulario">
+                    <form  action="" method="POST" id="miFormulario" >  
+                        <input type="email" placeholder="Correo" id="usuario" pattern="[A-Za-z]{2-9}">
+                        <input type="password" placeholder="Contraseña"id="correo" required>
+                        <p><input type="submit" id="enviar"  value="Iniciar Sesion" ></p> 
+                        <a href="index.html"><p><input type="reset" id="Cancelar"  value="Borrar datos" ></p></a> 
+                    </form>
+                </div>
+                <div class="reset-password">
+                <a href="#">Olvide mi Contraseña?</a>
+                </div>  
+                <p>¿Aún no tienes una cuenta?  <a  class="link" href="Registro.html">Registrate</a> </p>
+        </div>
+    </form> 
+</body>
+</html>

@@ -1,0 +1,67 @@
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b4d88cb546.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../proyect/CSS/registro.css">
+    <script src="../proyect/javascripts/registro.js"></script>
+
+    <title>Registro</title>
+</head>
+<body>
+    <div class="contenedor">
+        <header class="header">
+            <nav id="nav" class="nav1">
+                <div class="contenedor-nav">
+                  
+                    <div class="enlace" id="enlace">
+          
+                        <a href="index.html" >Inicio</a>
+                        <a href="Citas.html"  >Citas</a>
+                        <a href="Registro.html">Registro</a>
+                        <a href="Nosotros.html"  >Nosotros</a>
+                        <a href="Consejos.html" >Consejos</a>
+                        <a href="Historial.html" >Historial</a>
+                        <a href="Agrepet.html" >Agregar Mascota</a>
+                        <a href="login.html"><i class="fas fa-user-circle" class="icon "></i></a>
+                    </div> 
+                
+                </div>
+            </nav>
+            <div class="texto">
+                <h1>DiarioPet</h1>
+                <h2>Consultas Veterinarias</h2>
+                <h2>Control de Vacunas y desparasitaciones</h2>
+                <h2> para tus mascotas</h2>
+                <a href="Citas.html" class="btn-link"  ><h2>¡Pide tu Cita!</h2></a>
+            </div>
+
+        </header>
+        <main class="contenido">
+            <form action="inicio.html">
+                <div class="contenedor-form">    
+                    <h2 class="form--titulo">Formulario de Registro</h2>
+                        <div class="formulario">
+                        <form  action="" method="POST" id="miFormulario" >  
+                            <input type="text" id="nombre"name="nombre" placeholder="Nombre y Apellido"  maxlength="20"  >
+                            <input type="text"  id="usuario"name="usuario" placeholder="Escriba su usuario" >
+                            <input type="email" id="correo" name="correo"  placeholder="e-mail">
+                            <input type="password" id="contrasenna" name="contrasenna" placeholder="Contraseña" >
+                            <input type="password" id="contrasenna2" name="contrasenna" placeholder="Repita su Contraseña" >
+                            <input type="text" id="telefono" name="telefono"  placeholder="Teléfono" >
+                            <p><input type="checkbox" name="Aceptar" id="aceptar" class="acep">
+                            Al llenar este formulario de registro, aceptas todos las condiciones y terminos de seguridad</p> 
+                    
+                            <p><input type="submit" id="enviar"  value="Registrarse" ></p>  
+                            <p><input type="reset" id="borrar"  value="borrar" ></p> 
+                    
+                            <p>¿Ya tiene cuenta ? <a  class="link" href="login.html">Inicia Sesion</a> </p>
+                            
+              
+                        </form>
+                        </div>
+                </div>       
+            </form>
+        </main>
+</div>
+</body>
+</html>

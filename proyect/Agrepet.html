@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../proyect/CSS/Agrepet.css">
+    <script src="https://kit.fontawesome.com/b4d88cb546.js" crossorigin="anonymous"></script>
+    <title>Agregar Mascota</title>
+    <script src="../proyect/javascripts/agrepet.js"></script>
+</head>
+<body>
+    <div class="contenedor">
+        <header class="header">
+            <nav id="nav" class="nav1">
+                <div class="contenedor-nav">
+                   
+                    <div class="enlace" id="enlace">
+                        
+                        <a href="index.html" >Inicio</a>
+                        <a href="Citas.html"  >Citas</a>
+                        <a href="Registro.html">Registro</a>
+                        <a href="Nosotros.html"  >Nosotros</a>
+                        <a href="Consejos.html" >Consejos</a>
+                        <a href="Historial.html" >Historial</a>
+                        <a href="Agrepet.html" >Agregar Mascota</a>
+                        <a href="login.html"><i class="fas fa-user-circle" class="icon "></i></a>
+                    </div> 
+                
+                </div>
+            </nav>
+            <div class="texto">
+                <h1>DiarioPet</h1>
+                <h2>Consultas Veterinarias</h2>
+                <h2>Control de Vacunas y desparasitaciones</h2>
+                <h2> para tus mascotas</h2>
+                <a href="Citas.html" class="btn-link"  ><h2>¡Pide tu Cita Aquí!</h2></a>
+            </div>
+        </header>
+
+        <main class="contenido">
+
+        <div class="contenedor-form">
+        <h2 class="form--titulo">Agregar mascota</h2>
+
+        <form action="inicio.html" method="post" class="miFormulario">
+             <input type="text" name="ficha" id="ficha" placeholder="Ficha de la mascota"  class="input-48">
+             <input type="text" name="nombreMascota" id="nombreMascota" placeholder="Nombre de la mascota"  class="input-48">
+             <input type="text" name="raza" id="raza" placeholder="Raza de la mascota"  class="input-48">
+             <input type="text" name="peso" id="peso" placeholder="Escriba la edad de la mascota" class="input-48">
+             <input type="text" name="sexo" id="sexo" placeholder="Sexo de la mascota" class="input-48">
+             <input type="email" name="color" id="color" placeholder="Color de la mascota" class="input-100"  required></td>
+                    <div class="elegir">Mascota :
+                        <input type="radio" name="Gato" class="elegir" id="gato" value="G" class="input-48" />Gato
+                        <input type="radio" name="Perro" class="elegir"id="perro" value="G"class="input-48" />Perro </div>
+             <div id="divtabla"class="input-48">
+                  
+                </div>   
+             <p><input type="checkbox" name="Aceptar" id="aceptar" class="acep">
+                            Al llenar este formulario de cita, aceptas todos las Condicicones y terminos de seguridad</p> 
+             <input type="submit" value="enviar" id="enviar" class="btn-button">
+             <input type="reset" value="cancelar" id="cancelar" class="btn-button">
+             
+        </form>
+        </div>
+    </main>
+    </div>
+    
+    
+</body>
+</html>
